@@ -1,8 +1,8 @@
 # RFM_segmentation_with_k_means
-Цель задачи - провести k-means кластеризацию клиентов, основанную на методе RFM-сегментации (кластеризация на подпространстве признаков, соответствующем компонентам RFM).
-RFM-сегментация является одной из наиболее распространенных стратегий для разделения клиентов по "лояльности" и подразумевает сегментацию по 3 признакам:
-- recency - количество времени, прошедшего с момента последней покупки;
-- frequency - число покупок, совершенных за все время;
-- monetary value - суммарное количество денег, потраченных клиентом за все время.
+The goal of the task is to perform k-means clustering of customers based on the RFM-segmentation method (clustering in the feature subspace corresponding to RFM components). RFM-segmentation is one of the most common strategies for dividing customers based on "loyalty" and involves segmentation based on three features:
 
-Предварительная обработка данных включает в себя feature enjineering для RFM-сегментации, устранение пропусков и выбросов в данных, масштабирование и нормализацию. Далее подбирается наилучший параметр k для метода кластеризации k средних и дается трактовка сформированных кластеров.
+- Recency: the amount of time elapsed since the customer's last purchase.
+- Frequency: the number of purchases made over the entire time period.
+- Monetary value: the total amount of money spent by the customer over the entire time period.
+
+The data preprocessing includes feature engineering for RFM-segmentation, handling missing values and outliers in the data, scaling, and normalization. Then, the optimal parameter k for the k-means clustering method is determined, and an interpretation of the formed clusters is provided.
